@@ -12,5 +12,14 @@ public class Main {
            for(int x =0; x < 10; x++){
                System.out.println("contador = " + x);
            }
+
+           // laço faça enquanto
+        int cont = 1;
+        do{
+            // processo
+            System.out.println(cont);
+            // incremento
+            cont++;
+        }while(cont <= 10);
     }
 }

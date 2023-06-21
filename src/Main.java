@@ -24,6 +24,17 @@ public class Main {
         // Definição do comportamento
         rainha.falar();
         rainha.comer();
+
+        // Criar podutos
+        Produto p1 = new Produto(1300.00);
+        Produto p2 = new Produto();
+        // p2.preco = 233.00
+        p2.setPreco(233.00);
+        Produto p3;
+        p3 = new Produto("Placa Video", 1300.00);
+        p3 = new Produto("Placa mãe", 2500.00);
+
+        p2.setPreco(1.00);
     }
 
 
